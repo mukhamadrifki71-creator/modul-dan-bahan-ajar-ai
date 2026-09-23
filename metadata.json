@@ -1,0 +1,6 @@
+{
+  "name": "Generator Modul Ajar PAI Deep Learning",
+  "description": "Generator Modul Ajar/RPP Lengkap, Bahan Ajar Siswa (>700 Kata), dan LKPD Multi-Platform Variatif Siap Google Form & Quizizz Kurikulum Merdeka PAI SD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

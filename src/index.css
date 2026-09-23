@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .markdown-body h1 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #064e3b;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid #a7f3d0;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .markdown-body h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #0f766e;
+    margin-top: 1.35rem;
+    margin-bottom: 0.5rem;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .markdown-body h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 1rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .markdown-body h4 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #334155;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .markdown-body p {
+    margin-bottom: 0.75rem;
+    line-height: 1.65;
+    color: #334155;
+  }
+
+  .markdown-body ul, .markdown-body ol {
+    margin-left: 1.25rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    color: #334155;
+  }
+
+  .markdown-body ul {
+    list-style-type: disc;
+  }
+
+  .markdown-body ol {
+    list-style-type: decimal;
+  }
+
+  .markdown-body li {
+    margin-bottom: 0.25rem;
+  }
+
+  .markdown-body blockquote {
+    border-left: 4px solid #10b981;
+    background-color: #f0fdf4;
+    padding: 0.6rem 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin: 0.75rem 0;
+    font-style: italic;
+    color: #065f46;
+  }
+
+  .markdown-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.825rem;
+  }
+
+  .markdown-body th, .markdown-body td {
+    border: 1px solid #cbd5e1;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+  }
+
+  .markdown-body th {
+    background-color: #f1f5f9;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .markdown-body strong {
+    color: #0f172a;
+    font-weight: 700;
+  }
+
+  .markdown-body hr {
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+    margin: 1.25rem 0;
+  }
+}
